@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/app_auth.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <title>Web Assignment</title>
+  </head>
+
+  <body>
+    <header class="spacing">
+      <img
+        src="https://www.flaticon.com/svg/static/icons/svg/1995/1995515.svg"
+        alt="Logo"
+      />
+      <h1>Ayman Mawlan</h1>
+    </header>
+
+    <nav class="nav spacing">
+      <ul class="nav-ul">
+        <li class="nav-ul_li"><a href="../index.html">Home</a></li>
+        <li class="nav-ul_li"><a href="./blog.html">Blog</a></li>
+        <li class="nav-ul_li"><a href="./schedual.html">Schedule</a></li>
+        <li class="dropdown">
+          <button class="dropbtn">
+            <a>Layout Design</a> <i class="fas fa-caret-down"></i>
+          </button>
+
+          <ul class="dropdown-content">
+            <li>
+              <a href="./float_blog.html">Float Layout With Side Nav</a>
+            </li>
+            <li>
+              <a href="./flexbox_blog.html">FlexBox Layout With Side Nav</a>
+            </li>
+            <li>
+              <a href="./grid_blog.html">Grid Layout With Side Nav</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-ul_li">
+          <a class="active" href="./singin.html">Sing in</a>
+        </li>
+        <li class="nav-ul_li"><a href="./singup.html">Sign up</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="spacing">
+        <h1 class="articals-header align-left">Sign In</h1>
+        <form class="form-signin" action="/action_page.php">
+          <label for="username">User Name Or Email</label>
+          <input
+            class="input"
+            type="text"
+            id="username"
+            name="username"
+            placeholder="User name or Email..."
+          />
+
+          <label for="password">Password</label>
+          <input
+            class="input"
+            type="password"
+            id="password"
+            name="password"
+            placeholder="********"
+          />
+
+          <div class="buttons">
+            <a href="#">Forgot Password?</a>
+            <input type="submit" value="Sign In" />
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <h3>Site Map</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Terms And Quick Links</h3>
+        <ul>
+          <li><a href="#">Terms of Usage</a></li>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Address And Contact</h3>
+        <ul>
+          <li><a href="#">Erbil - Roshnbere, Iraq</a></li>
+          <li><a href="#">+964 750 350 4405</a></li>
+          <li><a href="#">Aymanmawlan28@gmail.com</a></li>
+          <br />
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

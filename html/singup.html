@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/app_auth.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <title>Web Assignment</title>
+  </head>
+
+  <body>
+    <header class="spacing">
+      <img
+        src="https://www.flaticon.com/svg/static/icons/svg/1995/1995515.svg"
+        alt="Logo"
+      />
+      <h1>Ayman Mawlan</h1>
+    </header>
+
+    <nav class="nav spacing">
+      <ul class="nav-ul">
+        <li class="nav-ul_li"><a href="../index.html">Home</a></li>
+        <li class="nav-ul_li"><a href="./blog.html">Blog</a></li>
+        <li class="nav-ul_li"><a href="./schedual.html">Schedule</a></li>
+        <li class="dropdown">
+          <button class="dropbtn">
+            <a>Layout Design</a> <i class="fas fa-caret-down"></i>
+          </button>
+
+          <ul class="dropdown-content">
+            <li>
+              <a href="./float_blog.html">Float Layout With Side Nav</a>
+            </li>
+            <li>
+              <a href="./flexbox_blog.html">FlexBox Layout With Side Nav</a>
+            </li>
+            <li>
+              <a href="./grid_blog.html">Grid Layout With Side Nav</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-ul_li"><a href="./singin.html">Sing in</a></li>
+        <li class="nav-ul_li">
+          <a class="active" href="./singup.html">Sign up</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section class="spacing">
+        <h1 class="articals-header align-left">Sign Up</h1>
+        <form action="/action_page.php">
+          <label for="username">User Name</label>
+          <input
+            class="input"
+            type="text"
+            id="username"
+            name="username"
+            placeholder="User name..."
+          />
+
+          <label for="fullname">Full name</label>
+          <input
+            class="input"
+            type="text"
+            id="fullname"
+            name="fullname"
+            placeholder="Full name..."
+          />
+
+          <label for="email">Email</label>
+          <input
+            class="input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="domain@example.com"
+          />
+
+          <label for="phoneNumber">Phone Number</label>
+          <input
+            class="input"
+            type="tel"
+            id="phoneNumber"
+            name="phoneNumber"
+            placeholder="+964 700 000 0000"
+          />
+          <label for="password">Password</label>
+          <input
+            class="input"
+            type="password"
+            id="password"
+            name="password"
+            placeholder="********"
+          />
+          <label for="date">Date Of Brith</label>
+          <input type="date" id="date" name="date" class="input" />
+
+          <label for="color">Profile Color</label>
+          <input type="color" id="color" name="color" class="input" />
+
+          <fieldset>
+            <legend>Martial Status</legend>
+            <input type="radio" name="status" id="single" value="single" />
+            <label for="single">Single</label><br />
+            <input type="radio" name="status" name="marrid" value="marrid" />
+            <label for="marrid">Marrid</label><br />
+            <input
+              type="radio"
+              name="status"
+              id="itIsPrivate"
+              value="It is private"
+            />
+            <label for="itIsPrivate">It is Private</label>
+          </fieldset>
+
+          <label for="children">No. of children</label>
+          <select id="children" name="children" class="input">
+            <option value="0">None</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="4+">More than 4</option>
+          </select>
+
+          <label for="degrees">Choose Your Degree</label>
+          <select name="degrees" id="degrees" class="input" multiple>
+            <option value="Diploma">Diploma</option>
+            <option value="Bachelore Of Science (BSc)">
+              Bachelore Of Science (BSc)
+            </option>
+            <option value=">Bachelore Of Arts (BA)">
+              Bachelore Of Arts (BA)
+            </option>
+            <option value="High School">High School</option>
+            <option value="Middle School">Middle School</option>
+            <option value="Master In Science">Master In Science</option>
+            <option value="Master In Engineer">Master In Engineer</option>
+          </select>
+
+          <label for="aboutyourself">About Your Self</label>
+          <textarea
+            id="aboutyourself"
+            name="message"
+            class="input"
+            placeholder="About Your Self"
+            rows="5"
+          ></textarea>
+
+          <label for="file">Upload CV</label>
+          <input type="file" id="file" name="file" class="input" />
+
+          <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" id="male" name="gender" value="Male" />
+            <label for="male">Male</label><br />
+            <input type="radio" id="female" name="gender" value="Female" />
+            <label for="female">Female</label><br />
+          </fieldset>
+          <fieldset>
+            <legend>Gender</legend>
+            <p>Please read the terms and agreements</p>
+            <br />
+            <input
+              type="checkbox"
+              id="i read ti"
+              name="i read ti"
+              value="I have read all the terms"
+            />
+            <label for="i read ti"> I have read all the terms</label><br />
+            <input
+              type="checkbox"
+              id="agree"
+              name="agree"
+              value="Yes, I am agree"
+            />
+            <label for="agree"> Yes, I am agree</label><br />
+          </fieldset>
+          <div class="buttons">
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Rest" />
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <h3>Site Map</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Terms And Quick Links</h3>
+        <ul>
+          <li><a href="#">Terms of Usage</a></li>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Address And Contact</h3>
+        <ul>
+          <li><a href="#">Erbil - Roshnbere, Iraq</a></li>
+          <li><a href="#">+964 750 350 4405</a></li>
+          <li><a href="#">Aymanmawlan28@gmail.com</a></li>
+          <br />
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

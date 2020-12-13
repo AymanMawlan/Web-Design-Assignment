@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/schedual.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <title>Web Assignment</title>
+  </head>
+
+  <body>
+    <header class="spacing">
+      <img
+        src="https://www.flaticon.com/svg/static/icons/svg/1995/1995515.svg"
+        alt="Logo"
+      />
+      <h1>Ayman Mawlan</h1>
+    </header>
+
+    <nav class="nav spacing">
+      <ul class="nav-ul">
+        <li class="nav-ul_li"><a href="../index.html">Home</a></li>
+        <li class="nav-ul_li"><a href="./blog.html">Blog</a></li>
+        <li class="nav-ul_li">
+          <a class="active" href="./schedual.html">Schedule</a>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn">
+            <a>Layout Design</a> <i class="fas fa-caret-down"></i>
+          </button>
+
+          <ul class="dropdown-content">
+            <li>
+              <a href="./float_blog.html">Float Layout With Side Nav</a>
+            </li>
+            <li>
+              <a href="./flexbox_blog.html">FlexBox Layout With Side Nav</a>
+            </li>
+            <li>
+              <a href="./grid_blog.html">Grid Layout With Side Nav</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-ul_li"><a href="./singin.html">Sing in</a></li>
+        <li class="nav-ul_li"><a href="./singup.html">Sign up</a></li>
+      </ul>
+    </nav>
+    <main class="spacing">
+      <section>
+        <h1 class="articals-header align-left">Seminar Schedule</h1>
+        <table id="schedule">
+          <thead>
+            <tr>
+              <th rowspan="3">Day</th>
+              <th colspan="6">Seminar</th>
+            </tr>
+            <tr>
+              <th colspan="3">Morning Sessions</th>
+              <th colspan="3">Evening Sessions</th>
+            </tr>
+            <tr>
+              <th>Begin</th>
+              <th>End</th>
+              <th>Topic</th>
+              <th>Begin</th>
+              <th>End</th>
+              <th>Topic</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th rowspan="2">Monday</th>
+              <td rowspan="2">08:00 AM</td>
+              <td rowspan="2">11:00 AM</td>
+              <td>Introduction to XML</td>
+              <td>01:30 PM</td>
+              <td>03:00 PM</td>
+              <td>HTML Language</td>
+            </tr>
+            <tr>
+              <td>CSS Language</td>
+              <td>03:30 AM</td>
+              <td>05:00 AM</td>
+              <td>Web Accessibility</td>
+            </tr>
+            <tr>
+              <th rowspan="3">Tuesday</th>
+              <td>08:00 AM</td>
+              <td>10:00 AM</td>
+              <td rowspan="2">Introduction to Javascript</td>
+              <td>02:00 PM</td>
+              <td>03:30 PM</td>
+              <td>The DOM</td>
+            </tr>
+            <tr>
+              <td>10:30 AM</td>
+              <td>12:00 AM</td>
+              <td rowspan="2">04:00 PM</td>
+              <td rowspan="2">06:00 PM</td>
+              <td rowspan="2">Advanced Javascript</td>
+            </tr>
+            <tr>
+              <td>09:00 AM</td>
+              <td>11:00 AM</td>
+              <td>Web Design and Bootstrap</td>
+            </tr>
+            <tr>
+              <th>Wednesday</th>
+              <td>09:00 AM</td>
+              <td>11:00 AM</td>
+              <td>Introduction to ReactJS</td>
+              <td>01:00 PM</td>
+              <td>03:00 PM</td>
+              <td>Introduction to Node.JS</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <h3>Site Map</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Terms And Quick Links</h3>
+        <ul>
+          <li><a href="#">Terms of Usage</a></li>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Address And Contact</h3>
+        <ul>
+          <li><a href="#">Erbil - Roshnbere, Iraq</a></li>
+          <li><a href="#">+964 750 350 4405</a></li>
+          <li><a href="#">Aymanmawlan28@gmail.com</a></li>
+          <br />
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

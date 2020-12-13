@@ -1,0 +1,19 @@
+#schedule {
+  width: 100%;
+  border-collapse: collapse;
+}
+#schedule th {
+  color: orange;
+  text-align: center;
+  border: 2px solid rgb(182, 156, 156);
+}
+thead th {
+  background-color: rgb(87, 87, 26);
+  padding: 0.65rem;
+  border-bottom: 4px solid rgb(182, 156, 156);
+}
+tbody td {
+  border: 2px solid rgb(182, 156, 156);
+  font-weight: 500;
+  padding: 0.65rem;
+}
